@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=7"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Auto Type Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
+    <script src="typed.min.js"></script>
+</head>
+
+<body>
+    <section id="main">
+        <div class="bg">
+            <img src="images/bg.webp" alt="Background">
+        </div>
+
+        <div class="text">
+            <strong>We Provide You <span class="type"></span></strong>
+            <p>Responsive website design using HTML, CSS, and JavaScript.</p>
+            <a href="" class="btn">View Design</a>
+        </div>
+    </section>
+
+
+
+    <script>
+        // type.js
+        var typed = new Typed('.type', {
+            // Waits 1000ms after typing "First"
+            strings: ['Profesional', 'Modern', 'Fully Functional', 'Website'],
+            typeSpeed: 100,
+            backSpeed: 70,
+            loop: true,
+
+        });
+    </script>
+</body>
+
+</html>
